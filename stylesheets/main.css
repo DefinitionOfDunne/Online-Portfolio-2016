@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+body{
+	font-family: 'Cabin', sans-serif;	
+	box-sizing: border-box;
+}
+#full-wrapper{
+
+}
+#header-wrapper{
+
+}
+
+#banner-text {
+    position: relative;
+    left: 5rem;
+    top: 10rem;
+}
+
+#banner {
+	background: url('../images/banner-img.jpg') no-repeat center center;
+	background-size: cover;
+	height: 40rem; 
+}
+#banner h1 {
+	color: whitesmoke;
+	font-size: 5rem;
+}
+#banner p {
+	color: whitesmoke;
+	font-size: 2rem;
+}
+
+#circle-wrapper{
+    margin: 5rem auto;
+    width: 40rem;
+    height: 40rem;
+}
+
+a.icon-link {
+	text-decoration: none;
+	font-size: 4rem;
+	margin: 2rem;
+}
+.content-circle {
+	box-sizing: border-box;
+	border: 15px solid orange;
+    width: 50%;
+    height: 50%;
+	border-radius: 50%;
+	float: left;
+	display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    opacity: .4;
+
+}
+#contact-info {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+}
+.fa {
+	color: black;
+}
+section h1 {
+	text-align: center;
+	font-size: 3rem;
+}
+.content-circle:hover {
+	opacity: 1;
+	
+}
+.name-text{
+	color: white;
+}
+
+#scott-circle {
+	background-image: url(../images/dylan-pic.png);
+}
+footer p {
+	text-align: center;
+}

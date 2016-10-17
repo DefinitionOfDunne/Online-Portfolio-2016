@@ -21,7 +21,7 @@ $(function() {
 
 
 $('#project-zero').popover({
-    title: "Project Details",
+    title: "From 1990 - 2015:",
     html: true,
     trigger: "hover",
     content: function() {
@@ -30,7 +30,7 @@ $('#project-zero').popover({
 });
 
 $('#project-one').popover({
-    title: "Project Details",
+    title: "Romance With Russ Comment Generator",
     html: true,
     trigger: "hover",
     content: function() {
@@ -39,7 +39,7 @@ $('#project-one').popover({
 });
 
 $('#project-two').popover({
-    title: "Project Details",
+    title: "PodFan: A Resource For Pod Lovers",
     html: true,
     trigger: "hover",
     content: function() {
@@ -48,7 +48,7 @@ $('#project-two').popover({
 });
 
 $('#project-three').popover({
-    title: "Project Details",
+    title: "Official Evan Lian Fan Page",
     html: true,
     trigger: "hover",
     content: function() {
@@ -57,7 +57,7 @@ $('#project-three').popover({
 });
 
 $('#project-four').popover({
-    title: "Project Details",
+    title: "Universally Rendered Blogging Application",
     html: true,
     trigger: "hover",
     content: function() {

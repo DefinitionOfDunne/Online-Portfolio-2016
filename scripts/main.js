@@ -23,7 +23,7 @@ $(function() {
 $('#project-zero').popover({
     title: "Project Details",
     html: true,
-    trigger: "click",
+    trigger: "hover",
     content: function() {
         return $("#popoverContentFirst").clone();
     }

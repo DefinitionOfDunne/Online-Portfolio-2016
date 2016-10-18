@@ -1,122 +1,139 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
-body{
-	font-family: 'Raleway', sans-serif;
-	box-sizing: border-box;
+body {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
 }
+
 .bg-faded {
-	background-color: white;
+  background-color: white;
 }
-#logo-img{
-	height: 3.5rem;
-	margin: -.25rem 0rem 0rem;
+
+#logo-img {
+  height: 3.5rem;
+  margin: -.25rem 0rem 0rem;
 }
+
 #banner-text {
-	position: relative;
-	left: 5rem;
-	top: 10rem;
+  position: relative;
+  left: 5rem;
+  top: 10rem;
 }
 
 .content-circle > div {
-	display: none;
+  display: none;
 }
 
 #banner {
-	background: url('../images/banner-img.jpg') no-repeat center center;
-	background-size: cover;
-	height: 40rem; 
-}
-#banner h1 {
-	color: #fff1d1;
-	font-size: 5rem;
-}
-#banner p {
-	color: #fff1d1;
-	font-size: 2rem;
+  background: url('../images/banner-img.jpg') no-repeat center center;
+  background-size: cover;
+  height: 40rem; 
 }
 
-.circle-wrapper{
-	margin: 5rem auto;
-	width: 20rem;
-	height: 20rem;
+#banner h1 {
+  color: #fff1d1;
+  font-size: 5rem;
+}
+
+#banner p {
+  color: #fff1d1;
+  font-size: 2rem;
+}
+
+.circle-wrapper {
+  margin: 5rem auto;
+  width: 20rem;
+  height: 20rem;
 }
 
 a.icon-link {
-	text-decoration: none;
-	font-size: 4rem;
-	margin: 2rem;
+  text-decoration: none;
+  font-size: 4rem;
+  margin: 2rem;
 }
-.content-circle {
-	box-sizing: border-box;
-	border: 15px solid #fe2617;
-	width: 100%;
-	height: 100%;
-	border-radius: 100%;
-	float: left;
-	display: flex;
-	align-items: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	overflow: hidden;
-	opacity: .4;
-}
-#contact-info {
-	text-align: center;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
 
+.content-circle {
+  box-sizing: border-box;
+  border: 15px solid #fe2617;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  opacity: .4;
 }
+
+#contact-info {
+  text-align: center  
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .fa {
-	color: black;
+  color: black;
 }
+
 section h1 {
-	color: #fe2617;
-	text-align: center;
-	font-size: 3rem;
+  color: #fe2617;
+  text-align: center;
+  font-size: 3rem;
 }
+
 .content-circle:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 .navbar {
-	padding: 1rem 1rem;
+  padding: 1rem 1rem;
 }
-.name-text{
-	color: black;
+
+.name-text {
+  color: black;
 }
-#project-zero{
-	background-color: lightgrey;
+
+#project-zero {
+  background-color: lightgrey;
 }
-#project-one{
-	background: url('../images/romance-with-russ-logo.png') no-repeat center center;
+
+#project-one {
+  background: url('../images/romance-with-russ-logo.png') no-repeat center center;
 }
+
 #project-two {
-	background: url('../images/podfan-logo.png') no-repeat center center;
-	background-color: lightgrey;
+  background: url('../images/podfan-logo.png') no-repeat center center;
+  background-color: lightgrey;
 }
-#project-three{
-	background: url('../images/evan-project.png') no-repeat center center;
+
+#project-three {
+  background: url('../images/evan-project.png') no-repeat center center;
 }
-#project-four{
-	background: url('../images/blogging-app-logo.png') no-repeat center center;
+
+#project-four {
+  background: url('../images/blogging-app-logo.png') no-repeat center center;
 }
+
 footer p {
-	text-align: center;
+  text-align: center;
 }
+
 section h1 {
-	font-size: 3rem;
-	margin-top: 5rem;
+  font-size: 3rem;
+  margin-top: 5rem;
 }
+
 .popover {
-	width: 35%;
-	max-width: 100rem;
-	height: 15rem;
-	color: gray;
+  width: 35%;
+  max-width: 100rem;
+  height: 15rem;
+  color: gray;
 }
+
 .popover-title {
-	font-size: 2rem;
-	text-align: center;
-	color: gray;
+  font-size: 2rem;
+  text-align: center;
+  color: gray;
 }
-
-

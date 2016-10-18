@@ -16,11 +16,8 @@ body{
 	left: 5rem;
 	top: 10rem;
 }
-#project-zero > div,
-#project-one > div,
-#project-two > div,
-#project-three > div,
-#project-four > div {
+
+.content-circle > div {
 	display: none;
 }
 

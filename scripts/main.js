@@ -1,24 +1,11 @@
 $(function() {
-    $("#project-zero").mouseenter(function(event) {
-        $(this).addClass("animated shake");
-    });
-    $("#project-one").mouseenter(function(event) {
-        $(this).addClass("animated shake");
-    });
-    $("#project-two").mouseenter(function(event) {
-        $(this).addClass("animated shake");
-    });
-    $("#project-three").mouseenter(function(event) {
-        $(this).addClass("animated shake");
-    });
-    $("#project-four").mouseenter(function(event) {
+    $(".content-circle").mouseenter(function(event) {
         $(this).addClass("animated shake");
     });
     $(".circle-wrapper").on("webkitAnimationEnd mozAnimationEnd oAnimationEnd animationEnd", function(event) {
         $(this).removeClass("animated shake");
     });
 });
-
 
 $('#project-zero').popover({
     title: "From 1990 - 2015:",

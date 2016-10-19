@@ -7,6 +7,7 @@ $(function() {
     });
 });
 
+
 $('#project-zero').popover({
     title: "From 1990 - 2015:",
     html: true,
@@ -51,6 +52,3 @@ $('#project-four').popover({
         return $("#popoverContentFifth").clone();
     }
 });
-
-
-

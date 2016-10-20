@@ -20,7 +20,7 @@ body {
   top: 10rem;
 }
 
-.content-circle > div {
+.myPopoverContentContainer {
   display: none;
 }
 

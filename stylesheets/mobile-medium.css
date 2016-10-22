@@ -1,0 +1,57 @@
+@media only screen and (max-width: 900px) {
+    html {
+        font-size: 90%;
+    }
+    nav {
+        height: auto;
+        border-bottom: 0;
+        padding: 0 20px;
+    }
+    .wrapper {
+        padding: 20px;
+    }
+    .control {
+        padding: 1px 7px;
+        overflow: hidden;
+        position: relative;
+    }
+    .banner .message {
+        width: 75%;
+        margin: 4rem auto;
+        text-align: left;
+    }
+    .banner .message h1 {
+        font-size: 6rem;
+        text-transform: uppercase;
+        font-weight: 100;
+    }
+    #main #projects article {
+        display: inline;
+        float: left;
+        width: 47.91667%;
+        margin: 0 1.04167%;
+    }
+    #main-banner {
+        height: 500px;
+    }
+    #main #bio article {
+        text-align: center;
+        width: 60%;
+        max-width: none;
+    }
+    #main #bio article p {
+        line-height: 3rem;
+        margin-top 2rem:
+    }
+    html .btn {
+        font-size: 80%;
+        padding: 1rem 3rem;
+    }
+    #skillSet article.skill {
+        display: block;
+        float: none;
+        width: 50%;
+        margin: 5rem auto;
+        padding-top: 10px;
+    }
+}

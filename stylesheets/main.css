@@ -103,16 +103,16 @@ nav ul li {
 }
 
 .section-title {
-    font-size: 1em;
+    font-size: 2em;
+    color: #eb0707;
     width: 100%;
     position: relative;
-    background: #fc3737;
-    color: #fff;
     text-align: center;
     line-height: 4rem;
     margin: 0 auto;
     z-index: 100;
     max-height: 66px;
+    text-transform: uppercase;
 }
 
 #main #projects article {
@@ -211,6 +211,7 @@ html .btn {
 }
 
 #skillSet article.skill h3 {
+    color: #eb0707;
     font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
@@ -256,6 +257,11 @@ footer {
     margin-right: 10px;
     color: #fff;
     background-color: none;
+}
+
+.soc li a:hover { 
+    background-color: #fefde4;
+    color: #758599;
 }
 
 footer small {

@@ -19,6 +19,9 @@ body {
     padding: 60px;
     margin: 0 auto;
 }
+a:hover {
+    text-decoration: none;
+}
 
 .wrapper:after,
 section {
@@ -124,7 +127,7 @@ nav ul li {
     padding: 30px 0;
 }
 
-#main #projects article img {
+.project-img {
     max-width: 403px;
     width: 20rem;
     height: 20rem;
@@ -133,10 +136,15 @@ nav ul li {
     background: white;
 }
 
+.project-img:hover {
+    border: 10px solid black;
+}
+
 #main #projects article h3 {
+    font-size: 2rem;
     margin-top: 25px;
     color: #eb0707;
-    text-transform: uppercase;
+    font-variant: small-caps;
 }
 
 #main #projects article p {

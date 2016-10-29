@@ -48,10 +48,13 @@
         padding: 1rem 3rem;
     }
     #skillSet article.skill {
-        display: block;
-        float: none;
-        width: 50%;
-        margin: 5rem auto;
+        display: inline;
+        width: 100%;
+        margin: 3rem auto;
         padding-top: 10px;
+    }
+    #skillSet article.skill p {
+        width: 80%;
+        margin: 0rem auto;
     }
 }

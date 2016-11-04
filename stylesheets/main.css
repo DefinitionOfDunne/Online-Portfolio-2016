@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background: #fefde4;
+    background: #fff;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     color: #475261;
@@ -73,13 +73,13 @@ nav ul li {
 }
 
 #main-banner {
-    background: url(../images/banner-img.png) top/cover no-repeat;
+    background: url(../images/dyl-banner1.jpg) top/cover no-repeat;
 }
 
 .banner {
     position: relative;
     width: 100%;
-    text-align: center;
+    text-align: left;
     height: 700px;
 }
 
@@ -91,14 +91,15 @@ nav ul li {
 .banner .message h1 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 8rem;
-    color: #fbfa95;
+    color: #092b94;
     text-transform: uppercase;
     font-weight: 100;
 }
 
 .banner .message p {
-    color: #fff;
+    color: #092b94;
     font-weight: 100;
+    margin: 1rem;
 }
 
 #projects {
@@ -107,7 +108,7 @@ nav ul li {
 
 .section-title {
     font-size: 2em;
-    color: #eb0707;
+    color: #092b94;
     width: 100%;
     position: relative;
     text-align: center;
@@ -131,19 +132,19 @@ nav ul li {
     max-width: 403px;
     width: 20rem;
     height: 20rem;
-    border: 5px solid black;
+    border: 5px solid #092b94;
     border-radius: 100%;
     background: white;
 }
 
 .project-img:hover {
-    border: 10px solid black;
+    border: 10px solid #092b94;
 }
 
 #main #projects article h3 {
     font-size: 2rem;
     margin-top: 25px;
-    color: #eb0707;
+    color: #092b94;
     font-variant: small-caps;
 }
 
@@ -213,13 +214,13 @@ html .btn {
 }
 
 #skillSet .skillSet-inner {
-    background: #fefde4;
+    background: #fff;
     padding: 40px;
     position: relative;
 }
 
 #skillSet article.skill h3 {
-    color: #eb0707;
+    color: #092b94;
     font-size: 2rem;
     text-transform: uppercase;
     margin-bottom: 1.5rem;
